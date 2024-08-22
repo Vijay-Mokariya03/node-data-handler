@@ -1,15 +1,15 @@
-# Readme for node-data-handler
-node-data-handler is a pagination helper function which allows you easily paginate, populate, select, sort, query, and search related documents from your mongodb collection using mongoose.
+# Readme for data-paginate-handle
+data-paginate-handle is a pagination helper function which allows you easily paginate, populate, select, sort, query, and search related documents from your mongodb collection using mongoose.
 
 ## Installation
 To install node-paginate, use npm
 ```sh
-npm install node-data-handler
+npm install data-paginate-handle
 ```
 ## Usage
 ```sh
 const express = require('express');
-const paginate = require('node-data-handler');
+const paginate = require('data-paginate-handle');
 const User = require('../models/User');
 
 const app = express();
